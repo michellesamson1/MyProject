@@ -43,7 +43,6 @@ func containsString(filePath, searchString string) bool {
 			return true
 		}
 	}
-
 	if err := scanner.Err(); err != nil {
 		fmt.Println("Error reading file:", err)
 		return false
